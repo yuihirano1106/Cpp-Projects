@@ -1,0 +1,25 @@
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled binaries / executables
+*.exe
+*.out
+*.app
+
+# Ignore shared libraries
+*.so
+*.dll
+*.dylib
+
+# Ignore debug and log files
+*.log
+
+# Ignore build directories (if you use one)
+build/
+bin/
+
+# Ignore specific file
+functionNotes.cpp
+
+
