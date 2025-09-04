@@ -22,4 +22,10 @@ bin/
 # Ignore specific file
 functionNotes.cpp
 
+# Ignore executables without extension (Linux/macOS)
+*
+!*.cpp
+!*.h
+!.gitignore
+
 
