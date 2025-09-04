@@ -5,7 +5,7 @@ void starbucks();
 void starbucks(string custom);
 
 int main (){
- starbucks("pumpkin spaice latte with oat milk and wiped cream");
+ starbucks("pumpkin spice latte with oat milk and whipped cream");
 
   return 0;
 }
