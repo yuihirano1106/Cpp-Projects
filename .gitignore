@@ -1,31 +1,20 @@
-# Ignore compiled object files
+# C/C++ build outputs (executables & objects)
 *.o
 *.obj
-
-# Ignore compiled binaries / executables
-*.exe
 *.out
+*.exe
 *.app
-
-# Ignore shared libraries
+*.a
 *.so
-*.dll
 *.dylib
 
-# Ignore debug and log files
-*.log
+# Common build dirs
+/build/
+/bin/
+/Debug/
+/Release/
 
-# Ignore build directories (if you use one)
-build/
-bin/
-
-# Ignore specific file
-functionNotes.cpp
-
-# Ignore executables without extension (Linux/macOS)
-*
-!*.cpp
-!*.h
-!.gitignore
+# Ignore this one source file
+/functionNotes.cpp
 
 
