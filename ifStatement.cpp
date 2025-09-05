@@ -2,31 +2,30 @@
 #include <string>
 using namespace std;
 
+void bmiCheck(double bmi);
+
 int main(){
-  int age;
-  string sex;
-  cout<<"Enter your age and sex: ";
-  cin>>age;
-  cin>>sex;
+  double weight;
+  double height;
+  cout<<"Enter your weight(kg) and height(m):\n";
+  cin>>weight;
+  cin>>height;
 
-  
-  if(age >=13 && age < 18 && sex == "female"){
-    cout<<"You are teenager and girl!";
-  }
-  else if(age >=18 && sex == "female"){
-    cout<<"You are an adult and woman!";
-  }
-  else if(age >=13 && age < 18 && sex == "male"){
-    cout<<"You are teenager and boy!";
-  }
-  else if(age >=18 && sex == "male"){
-    cout<<"You are an adult and man!";
-  }
-  else {
-    cout<<"You are baby or senior ";
-  }
+  double bmi = weight / (height * height);
+  bmiCheck(bmi);
 
-
+  if(bmi >= 25.0 && bmi <=29.9){
+    cout<<"You are overweight. Let's reconsider your daily diet!";
+  }
+  else if(bmi > 30){
+    cout<<"You extremely overweight and You are obese.Let's reconsider your daily diet + get some exercise!";
+  }else{
+    cout<<"You are healthy! keep it up!";
+  }
 
   return 0;
+}
+
+void bmiCheck(double bmi){
+  cout<<"Your BMI is: "<<bmi<<"\n";
 }
