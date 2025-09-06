@@ -11,6 +11,7 @@ int main(){
   cin>>weight;
   cin>>height;
 
+
   double bmi = weight / (height * height);
   bmiCheck(bmi);
 
@@ -18,7 +19,7 @@ int main(){
     cout<<"You are overweight. Let's reconsider your daily diet!";
   }
   else if(bmi > 30){
-    cout<<"You extremely overweight and You are obese.Let's reconsider your daily diet + get some exercise!";
+    cout<<"You are obese.Let's reconsider your daily diet + get some exercise!";
   }else{
     cout<<"You are healthy! keep it up!";
   }

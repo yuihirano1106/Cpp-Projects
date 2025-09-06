@@ -9,8 +9,12 @@ int main (){
 
   double kg = weight*0.4536;
   converter(kg);
+
+  return 0;
 }
 
 void converter (double kg){
-  cout<<"Your weight: "<<kg<<"kg";
+  cout<<"Your weight: "<<kg<<" kg";
+  
+  
 }
