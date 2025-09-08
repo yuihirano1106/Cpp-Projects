@@ -2,11 +2,11 @@
 #include <string>
 using namespace std;
 
-int concverStringToNum(string name) {
+int convertStringToNum(string name) {
   if(name == "Julia") return 1;
   if(name == "Blake") return 2;
   if(name == "Eve") return 3;
-  if(name == "Chole") return 4;
+  if(name == "Chloe") return 4;
   if(name == "Violet") return 5;
   if(name == "Jason") return 6;
   return 0;
@@ -17,7 +17,7 @@ int main(){
    cout << "Enter your name: ";
    cin >> name;
 
-   switch(concverStringToNum(name)){
+   switch(convertStringToNum(name)){
     case 1:
        cout << "You are independent and strong woman and such a good roommate!";
        break;
@@ -37,7 +37,7 @@ int main(){
        cout << "You are wonderful person and I really love you!";
        break;
     default:
-       cout << "You are doing great! kee it up!";
+       cout << "You are doing great! keep it up!";
        break;
    }
 
