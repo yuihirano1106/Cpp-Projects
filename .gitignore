@@ -16,8 +16,6 @@
 
 # Ignore this one source file
 /functionNotes.cpp
-/whileloop.cpp
-/doWhileloop.cpp
+/browhileloop.cpp
 /forloop.cpp
-/converter.cpp
 
